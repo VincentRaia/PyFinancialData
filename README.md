@@ -1,7 +1,7 @@
 PyFinancialData
 ===============
 
-A python library for pulling financial data from Morningstar and Yahoo.
+-A python library for pulling financial data from Morningstar and Yahoo.
 
 -Includes over 100 functions for income statement, balance sheet, and cashflow items, as well as various valuation metrics.
 
