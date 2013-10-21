@@ -449,11 +449,11 @@ def current_ratio(ticker,time):
 
 def debt_to_equity(ticker,time):
     df = ratios_download(ticker)
-    return df.loc["Current Ratio",time]
+    return df.loc["Debt/Equity",time]
 
 def quick_ratio(ticker,time):
     df = ratios_download(ticker)
-    return df.loc["Debt/Equity",time]
+    return df.loc["Quick Ratio",time]
 
 def stock_exchange(symbol):
     return y_stats(symbol, 'x')
